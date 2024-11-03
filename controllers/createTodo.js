@@ -14,10 +14,10 @@ const createTodo = async (request,responce) => {
         console.log(`${error}`)
         responce.status(500).json({
             success:false,
-            data:"Intrernal Server Error",
+            data:"Internal Server Error",
             message:error.message
         })
     }
 }
 
-module.exports = {createTodo} 
+module.exports = {createTodo}
