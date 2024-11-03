@@ -1,0 +1,33 @@
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+*.tlog
+*.out
+*.err
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.seed.lock
+*.sqlite
+
+# MongoDB environment variables (if any)
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.idea/
+.vscode/
+*.swp
